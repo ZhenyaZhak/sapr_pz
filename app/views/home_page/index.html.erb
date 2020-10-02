@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<body class="body">
+  <div class="saprs-container">
+    <% @saprs.each do |sapr| %>
+      <div class="sapr-info">
+        <span class="title"><%= sapr.title %></span>
+        <span class="count"><%= sapr.count %></span>
+      </div>
+    <% end %>
+  </div>
+</body>
